@@ -193,13 +193,14 @@ $('.promptBtn').mouseout(function(){
 		$(".scBigBox").hide()
 	})*/
 
-/*简洁、详细切换*/
+/*简洁、详细切换
 	$(document).ready(function() {
 		$.fn.fullpage({
 			
 			anchors: ['pa1', 'pa2', 'pa3', 'pa4']
 		});
 	});
+	*/
 
 })
 

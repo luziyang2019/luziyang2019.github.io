@@ -75,7 +75,7 @@ html,body{height: 100%}
 .bottomCopyright{width: 100%;text-align: center;}
 
 
-/*关于本站*/
+/*关于本站
 .aboutLogo{padding-top:60px;}
 .aboutBox{width: 940px;margin:0px auto 0 auto;overflow: hidden;padding: 60px 30px 60px 30px;background-color: white;border-radius: 15px;}
 .aboutNav{float: left;width: 180px;color: #5a5a5a;}
@@ -84,21 +84,26 @@ html,body{height: 100%}
 .aboutNav li:hover{color:black;}
 .aboutContent{float: left;border-left: 1px solid #e3e3e3;padding:0px 0px 0px 80px;width: 660px;color: #5a5a5a;font-size: 15px;}
 .aboutCopyright{margin:0 auto;width:240px;height:40px;bottom:0px;margin-top:30px;font-size: 14px;color: #afafaf;}
+*/
 
-/*反馈联系*/
+/*反馈联系
 .voosoom{width: 230px;height: 15px;background-image: url(images/voosoom.png);background-repeat: no-repeat;background-position: 40px 2px;margin-top: 20px;}
 .btn001{width: 150px;height: 35px;background-color: #ffe400;font-size: 15px;color: #0e0e0e;margin:0 auto;display: block;text-align: center;line-height: 35px;border-radius: 5px;}
 .btn001:hover{background-color: #f7dd00;}
 
 .liuyanText{font-size: 15px;color:# #5a5a5a;width: 400px;text-align: center;height: 60px;background-color:#ffe400;border-radius: 15px;padding-top: 10px;margin:0 auto;}
 .liuyanText b{font-size: 22px;color:#252525;}
+*/
 
-/*文章*/
+
+/*文章
 .wTitle{margin-bottom:10px;overflow: hidden;width: 630px;font-size: 15px;}
 .wTitle span{float: right;font-size: 14px;color:#afafaf;}
 .wTitle b{float: left;width: 70px;}
 .wTitle a{float: left;}
 .wTitle a:hover{color: black}
+*/
+
 
 /*滑动页面*/
 
@@ -106,13 +111,13 @@ html,body{height: 100%}
 #hSiteNav{width:540px;margin:25px auto 15px auto;overflow: hidden;}
 .hNav{float: left;width:60px;height:34px;text-align: center;color: #919191;font-size: 16px;cursor:pointer;line-height:30px;}
 .hNav:hover{color:#15120e;background-position: 0 28px;background-repeat: no-repeat;}
-.currentHNav{color:#15120e;background-image: url(images/hNavGrayLine.png?version=18.13);background-position: 0 28px;background-repeat: no-repeat;}
+.currentHNav{color:#15120e;background-image: url(images/hNavGrayLine.png);background-position: 0 28px;background-repeat: no-repeat;}
 .hSiteBigBox{width:1200px;position:relative;}
 
 .hSiteBox{width:1200px;position: absolute;}
 .hSiteLine{width: 100%;height: 50px;overflow: hidden;margin-bottom: 5px;}
 .hSite{width: 144px;height:50px;float: left;display: block;margin-right:27px;}
-.hSite:hover{background-image:url(images/hSiteBg.png?version=18.8);background-repeat: no-repeat;}
+.hSite:hover{background-image:url(images/hSiteBg.png);background-repeat: no-repeat;}
 .hSiteImg{width:20px;height: 20px;float: left;margin:15px 10px 0 10px;background-repeat: no-repeat;}
 .hSiteImg1{background-image: url(images/hSiteImg1.png);}
 .hSiteImg2{background-image: url(images/hSiteImg2.png);}
