@@ -1,16 +1,5 @@
 $(function(){
 
-	/*百度统计代码*/
-	
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?e422443978851cab4a6061bd00774795";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-
-/*百度统计结束*/
 
 
 	
@@ -173,6 +162,14 @@ hoverEvent: function(){
 } 
 }); 
 
+$('.hTukuBtn').hoverDelay({ 
+hoverEvent: function(){ 
+		$('.hSiteBox').hide()
+		$('.hTuku').show()
+		$(".hNav").removeClass("currentHNav")
+		$(".hTukuBtn").addClass("currentHNav")	
+} 
+}); 
 
 $('.promptBtn').hoverDelay({ 
 hoverEvent: function(){ 
