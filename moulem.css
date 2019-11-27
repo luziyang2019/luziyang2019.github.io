@@ -1,7 +1,9 @@
 *{padding:0;margin:0;text-decoration:none;list-style: none;font-family: '微软雅黑';outline: none;}
 a{color: inherit;}
 img{border:0 none;}
-
+.footer{
+height:100%;
+}
 .hSiteLine img {
     width: 20px;
     height: 20px;
