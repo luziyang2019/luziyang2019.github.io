@@ -35,7 +35,7 @@ input[type=text]::-ms-clear{
 
 
 html,body{height: 100%}
-#bg{min-height: 100% ;width:100%;background-image: url(images/bg.png);position: relative;}
+#bg{min-height: 100% ;width:100%;position: relative;}
 #bigBox{width:1000px;height:485px;position: absolute;left: 50%;top:50%;margin-top:-242px;margin-left:-500px;}
 
 #logoBox{overflow: hidden;width:254px;margin:0 auto;margin-bottom: 30px;}
@@ -48,7 +48,7 @@ html,body{height: 100%}
 #search{width:908px;height: 46px;border:2px solid #15120e;border-right:0 none;float:left;color:#afafaf;
     font-size: 16px;padding-left:0px;color:#15120e;border-left: 0;}
 #search:hover{color:#15120e}
-#searchBtn{width:50px;height:50px;background-color: #3fbcff;border:2px solid #15120e;border-top-right-radius:15px;border-bottom-right-radius:15px;float:left;
+#searchBtn{width:50px;height:50px;background-color: #267fef;border:2px solid #15120e;border-top-right-radius:15px;border-bottom-right-radius:15px;float:left;
     background-image: url(images/searchBtn.png);background-position:12px 12px;background-repeat: no-repeat;cursor:pointer;}
 .searchChoice{width:40px;height:46px;background-color:white;border:2px solid #15120e;border-right: 0;border-top-left-radius:15px;border-bottom-left-radius:15px;float:left;
     background-position:12px 12px;background-repeat: no-repeat;position: relative;}
