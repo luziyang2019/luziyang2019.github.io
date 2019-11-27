@@ -2,7 +2,7 @@
 a{color: inherit;}
 img{border:0 none;}
 .footer{
-height:100%;
+display:none;
 }
 .hSiteLine img {
     width: 20px;
