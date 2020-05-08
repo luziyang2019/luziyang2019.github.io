@@ -927,9 +927,21 @@ WIDGET = {
 <script type="text/javascript">
 
 $.ajax({
-                    type: "get",
-                    url: "https://v1.alapi.cn/api/shici",
-                    dataType: "json",
+var data = "type=all";
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://v1.alapi.cn/api/shici");
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+xhr.send(data);
                     success: function (data) {
                         $("#shici").html('<p>'+data.content+'</p>');
                     }
