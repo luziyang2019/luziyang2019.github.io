@@ -925,14 +925,15 @@ WIDGET = {
 </script>
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 <script type="text/javascript">
-  $.ajax({
-               type: "POST",
-               url: "https://v1.alapi.cn/api/shici",
-               data: "type=all",
-               success: function(data){
+
+$.ajax({
+                    type: "get",
+                    url: "https://v1.alapi.cn/api/shici",
+                    dataType: "json",
+                    success: function (data) {
                         $("#shici").html('<p>'+data.content+'</p>');
-                  }
-            });
+                    }
+                });
 
 </script>
 </body>
