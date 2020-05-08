@@ -33,6 +33,17 @@
     left: 50%;
     top: 20px;
 }
+.shici {
+	width: 500px;
+    position: absolute;
+    margin-right: -500px;
+    right: 50%;
+    top: 20px;
+}
+
+.toptop {
+
+}
 
 </style>
 <body>
@@ -41,7 +52,28 @@
 		<div class="tianqi"><div id="he-plugin-simple"></div></div>
 		<div id='bigBox'>
              <div id='divimg' style="text-align: center;margin:0 auto">
+             <div class="toptop">
+             	
              <div class="yiyan"><p class="text-lead text-white" id="hitokoto"></p></div>
+             <div class="shici">
+             	<script type="text/javascript">
+             		var data = "type=all";
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("POST", "https://v1.alapi.cn/api/shici");
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+xhr.send(data);</script>
+             </div>
+             </div>
           </div>
 
 
@@ -802,7 +834,10 @@
 						<img src="ico/iconfont.ico"/>
 						<span class="hSiteName">iconfont</span>
 					</a>
-
+					<a href="https://www.alapi.net/doc" class="hSite" target="_blank">
+						<img src="ico/default.ico"/>
+						<span class="hSiteName">免费api</span>
+					</a>
 				</div>
 				
 			</div>
