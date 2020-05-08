@@ -53,25 +53,10 @@
 		<div id='bigBox'>
              <div id='divimg' style="text-align: center;margin:0 auto">
              <div class="toptop">
-             	
+
              <div class="yiyan"><p class="text-lead text-white" id="hitokoto"></p></div>
              <div class="shici">
-             	<script type="text/javascript">
-             		var data = "type=all";
-
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === 4) {
-    console.log(this.responseText);
-  }
-});
-
-xhr.open("POST", "https://v1.alapi.cn/api/shici");
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-xhr.send(data);</script>
+                <div id ="shici"></div>
              </div>
              </div>
           </div>
@@ -939,6 +924,12 @@ WIDGET = {
 }
 </script>
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+<script type="text/javascript">
+	 var url = 'https://v1.alapi.cn/api/shici';
+        $.getJSON(url,function(data){
+            $('#shici').append('<p>'+data.content+'</p>');          
+        });
+</script>
 </body>
 </html>
 
