@@ -34,6 +34,29 @@
     top: 20px;
 }
 
+#calendar{
+	background-color: #fff;
+	width: 200px;
+	height: 190px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 100px auto;
+	text-align: center;
+}
+#calendar .yearMon{
+	background-color: #ddd;
+	padding: 5px 0;
+}
+
+#calendar .date{
+	color: #0099FF;
+	font-size: 96px;
+	font-weight: bold;
+}
+
+.toptop {
+
+}
 
 </style>
 <body>
@@ -42,9 +65,17 @@
 		<div class="tianqi"><div id="he-plugin-simple"></div></div>
 		<div id='bigBox'>
              <div id='divimg' style="text-align: center;margin:0 auto">
+             <div class="toptop">
 
-             <div class="yiyan"><p class="text-lead text-white" id="hitokoto"></p></div>
+                     <div class="yiyan"><p class="text-lead text-white" id="hitokoto"></p></div>
 
+                     <div class="rili" id="calendar">
+                            <div class="yearMon"></div>
+                            <div class="date"></div>
+                            <div class="week"></div>
+                     </div>
+
+             </div>
           </div>
 
 
@@ -910,6 +941,21 @@ WIDGET = {
 }
 </script>
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+<script type="text/javascript">
+	
+$(function(){
+	// 获取时间
+	var nowDate = new Date();     
+	var year = nowDate.getFullYear();    
+	var month = nowDate.getMonth() + 1 < 10 ? "0" + (nowDate.getMonth() + 1) : nowDate.getMonth() + 1;    
+	var date = nowDate.getDate() < 10 ? "0" + nowDate.getDate() : nowDate.getDate();
+	var week = "星期" + "日一二三四五六".split(/(?!\b)/)[nowDate.getDay()];
+	// 添加文本内容到相应的div
+	$(".yearMon").text(year+"年"+month+"月");
+	$(".date").text(date);
+	$(".week").text(week);
+});
+</script>
 </body>
 </html>
 
