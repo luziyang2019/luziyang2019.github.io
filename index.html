@@ -940,9 +940,10 @@ xhr.open("POST", "https://v1.alapi.cn/api/shici");
 xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
 xhr.send(data);
-
-
+     function(data){
             $('#shici').append('<p>'+data.content+'</p>');          
+        }
+        
 </script>
 </body>
 </html>
