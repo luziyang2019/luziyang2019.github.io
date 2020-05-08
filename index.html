@@ -33,17 +33,7 @@
     left: 50%;
     top: 20px;
 }
-.shici {
-	width: 500px;
-    position: absolute;
-    margin-right: -500px;
-    right: 50%;
-    top: 20px;
-}
 
-.toptop {
-
-}
 
 </style>
 <body>
@@ -52,13 +42,9 @@
 		<div class="tianqi"><div id="he-plugin-simple"></div></div>
 		<div id='bigBox'>
              <div id='divimg' style="text-align: center;margin:0 auto">
-             <div class="toptop">
 
              <div class="yiyan"><p class="text-lead text-white" id="hitokoto"></p></div>
-             <div class="shici">
-                <div id ="shici"></div>
-             </div>
-             </div>
+
           </div>
 
 
@@ -924,27 +910,6 @@ WIDGET = {
 }
 </script>
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-<script type="text/javascript">
-
-var request = require("request");
-
-var options = { method: 'POST',
-  url: 'https://v1.alapi.cn/api/shici',
-  headers: {'Content-Type': 'application/x-www-form-urlencoded' },
-  form:  {
-  "type": "all"
-} };
-
-request(options, function (error, response, body) {
-  if (error) throw new Error(error);
-                        $("#shici").html('<p>'+data.content+'</p>');
-  console.log(body);
-});
-
-
-
-
-</script>
 </body>
 </html>
 
