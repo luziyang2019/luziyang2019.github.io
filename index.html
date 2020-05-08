@@ -926,26 +926,23 @@ WIDGET = {
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 <script type="text/javascript">
 
-$.ajax({
-var data = "type=all";
+var request = require("request");
 
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
+var options = { method: 'POST',
+  url: 'https://v1.alapi.cn/api/shici',
+  headers: {'Content-Type': 'application/x-www-form-urlencoded' },
+  form:  {
+  "type": "all"
+} };
 
-xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === 4) {
-    console.log(this.responseText);
-  }
+request(options, function (error, response, body) {
+  if (error) throw new Error(error);
+                        $("#shici").html('<p>'+data.content+'</p>');
+  console.log(body);
 });
 
-xhr.open("POST", "https://v1.alapi.cn/api/shici");
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-xhr.send(data);
-                    success: function (data) {
-                        $("#shici").html('<p>'+data.content+'</p>');
-                    }
-                });
+
 
 </script>
 </body>
