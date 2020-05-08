@@ -925,25 +925,15 @@ WIDGET = {
 </script>
 <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 <script type="text/javascript">
-var data = "type=all";
+  $.ajax({
+               type: "POST",
+               url: "https://v1.alapi.cn/api/shici",
+               data: "type=all",
+               success: function(data){
+                        $("#shici").html('<p>'+data.content+'</p>');
+                  }
+            });
 
-var xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener("readystatechange", function () {
-  if (this.readyState === 4) {
-    console.log(this.responseText);
-  }
-});
-
-xhr.open("POST", "https://v1.alapi.cn/api/shici");
-xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-
-xhr.send(data);
-     function(data){
-            $('#shici').append('<p>'+data.content+'</p>');          
-        }
-        
 </script>
 </body>
 </html>
