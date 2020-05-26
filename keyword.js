@@ -5,8 +5,8 @@
                  {name:"query",action:"https://www.sogou.com/web",stype:"images/searchChoice/scsougougray.png",type:"sogou"},
                  {name:"q",action:"https://cn.bing.com/search",stype:"images/searchChoice/scbinggray.png",type:"bing"},
                  {name:"q",action:"https://www.so.com/s",stype:"images/searchChoice/sc360gray.png",type:"so"},
-                 {name:"q",action:"https://www.google.com/search",stype:"images/searchChoice/scgooglegray.png",type:"google"},
-                 {name:"word",action:"http://www.cilimao.me/search",stype:"images/searchChoice/scciligray.png",type:"cili"},
+                 {name:"q",action:"https://www.google.com.hk/search",stype:"images/searchChoice/scgooglegray.png",type:"google"},
+                 {name:"word",action:"https://www.cupfox.com/search",stype:"images/searchChoice/scmovie.png",type:"cili"},
                  {name:"key",action:"http://neets.cc/search",stype:"images/searchChoice/scyingyingray.png?v=1.1",type:"yingyin"},
                  
                 ]};
