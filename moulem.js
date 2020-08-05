@@ -81,48 +81,48 @@ outTimer = setTimeout(sets.outEvent, sets.outDuring);
 
 
 
-$('.hZongheBtn').hoverDelay({ 
+$('.hChangyongBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hZonghe').show()				
+		$('.hChangyong').show()				
 		$(".hNav").removeClass("currentHNav")
-		$(".hZongheBtn").addClass("currentHNav")
+		$(".hChangyongBtn").addClass("currentHNav")
 } 
 }); 
 
-$('.hGouwuBtn').hoverDelay({ 
+$('.hZhengfaBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hGouwu').show()
+		$('.hZhengfa').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hGouwuBtn").addClass("currentHNav")	
+		$(".hZhengfaBtn").addClass("currentHNav")	
 } 
 }); 
 
-$('.hZixunBtn').hoverDelay({ 
+$('.hQuzhanBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hZixun').show()
+		$('.hQuzhan').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hZixunBtn").addClass("currentHNav")	
+		$(".hQuzhanBtn").addClass("currentHNav")	
 } 
 }); 
 
-$('.hShejiaoBtn').hoverDelay({ 
+$('.hTukuBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hShejiao').show()
+		$('.hTuku').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hShejiaoBtn").addClass("currentHNav")	
+		$(".hTukuBtn").addClass("currentHNav")	
 } 
 }); 
 
-$('.hYingyinBtn').hoverDelay({ 
+$('.hXuexiBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hYingyin').show()
+		$('.hXuexi').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hYingyinBtn").addClass("currentHNav")	
+		$(".hXuexiBtn").addClass("currentHNav")	
 } 
 }); 
 
@@ -144,30 +144,30 @@ hoverEvent: function(){
 } 
 }); 
 
-$('.hItsiteBtn').hoverDelay({ 
+$('.hZhanzhangBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hItsite').show()
+		$('.hZhanzhang').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hItsiteBtn").addClass("currentHNav")
+		$(".hZhanzhangBtn").addClass("currentHNav")
 } 
 }); 
 
-$('.hQuzhanBtn').hoverDelay({ 
+$('.hBangongBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hQuzhan').show()
+		$('.hBangong').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hQuzhanBtn").addClass("currentHNav")	
+		$(".hBangongBtn").addClass("currentHNav")	
 } 
 }); 
 
-$('.hTukuBtn').hoverDelay({ 
+$('.hSosoBtn').hoverDelay({ 
 hoverEvent: function(){ 
 		$('.hSiteBox').hide()
-		$('.hTuku').show()
+		$('.hSoso').show()
 		$(".hNav").removeClass("currentHNav")
-		$(".hTukuBtn").addClass("currentHNav")	
+		$(".hSosoBtn").addClass("currentHNav")	
 } 
 }); 
 
