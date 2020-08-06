@@ -297,12 +297,12 @@ border-bottom:dashed 1px #cccccc;
 
 @media screen and (max-width: 1280px) {/*兼容主流笔记本*/
     .hSiteName{
-        font-size: 14px;
+        font-size: 13px;
     }
     #calendar {
-        width: 120px;
-        height: 145px;
-        border-radius: 10px;
+        width: 90px;
+        height: 115px;
+        border-radius: 8px;
     }
     #calendar .yearMon {
         font-size: 11px;
@@ -311,8 +311,10 @@ border-bottom:dashed 1px #cccccc;
         font-size: 50px;
     }
     #calendar .week {
-        font-size: 14px;  
+        font-size: 13px;  
     }
-
+   .hNav {
+        font-size: 14px;
+    }
 
 }
