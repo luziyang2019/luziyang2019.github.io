@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278 112"><defs><style>
+	@font-face {
+ font-family: 'Tensentype-TTMiaoSiJ-W1';
+ src: local('Tensentype-TTMiaoSiJ-W1 Regular'),
+        local('Tensentype-TTMiaoSiJ-W1'),
+        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.woff') format('woff'),
+        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.eot') format('eot'),
+        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.woff2') format('woff2'),
+        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.TTF') format('truetype'),
+        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.svg#Tensentype-TTMiaoSiJ-W1') format('svg');
+}.cls-1{opacity:0.81;}.cls-2{fill:#3979ec;}.cls-3{font-size:28px;}.cls-3,.cls-4{font-family:Tensentype-TTMiaoSiJ-W1;}.cls-4{font-size:19.1px;}</style></defs><title>logo</title><g class="cls-1"><path d="M93,59.1l-8.31-8.89a22.58,22.58,0,1,0-8.06,6.18,1.74,1.74,0,0,0-1.44-3.17,19.16,19.16,0,1,1,5.89-4.17,1.73,1.73,0,0,0,0,2.46,1.63,1.63,0,0,0,.17.11c0,.07.08.15.13.22l9,9.64a1.76,1.76,0,0,0,3-1.13A1.69,1.69,0,0,0,93,59.1Z"/><path class="cls-2" d="M57.83,33.56h0c0-.27,0,0,0,0M80.68,34v0m0-.08v0m0-.35c0-2.28-1.48-6.15-4.81-6.61a4.9,4.9,0,0,0-4.81,1.8c-1.07,1.36-.09,6,2.4,6a3.64,3.64,0,0,1,2.24.75,5.32,5.32,0,0,1,1.37,1.65,1.39,1.39,0,0,1,.08,1.14,3.26,3.26,0,0,1-.68,1.27c-.32.36.08.78,0,1.2a3.07,3.07,0,0,1-.6,1.2c.38.51.82,0,1.2,0,1,0,1.2-1.2,1.2-1.2.33-.29,1-.17,1.21-.6.13-.27-.06-.75,0-1.06.11-.66.73-1,.86-1.68a16.11,16.11,0,0,0,.36-3.24v.36h0V34.2c0-.39,0-.64,0-.64M67.45,22.14c-1.39.11-1.2,1.8-1.2,1.8a1.23,1.23,0,0,0,1.2,0,1,1,0,0,1,1.2-.6c.09-.18.19-1.32-1.2-1.2M57.23,29.35c.58-.22,1.2.6,1.2.6a.79.79,0,0,0,1.2-.6,6.29,6.29,0,0,1,2.41-3h1.8L65,25.14c.48-1.73-1.2-1.2-1.2-1.2a3.45,3.45,0,0,1-1.8.6c.27-.92,2.4-1.2,2.4-1.2.22-.39-.6-.6-.6-.6C62.17,21.86,55.56,27,55.42,30a3.39,3.39,0,0,0,2.38,3.61c0,.19,0,.69,0,1.81.05,2.64.6,3,.6,3s1.18,2.14,1.8,3c.25,4.22,2.41,5.41,2.41,5.41,1.13.08,1.2-1.2,1.2-1.2a2.7,2.7,0,0,1-.6-1.8A2,2,0,0,1,64.44,42c1.09-.62,1.79-2.13,2.41-3.61a1.75,1.75,0,0,0-1.2-2.4,21.87,21.87,0,0,1-4.82-3c-.26-.44-3,0-3,0v-.6c-.59-.21-.6-1.2-.6-1.2-.51-.67,0-1.81,0-1.81m10.22,21a15,15,0,1,1,15-15A15,15,0,0,1,67.45,50.4Z"/></g><text class="cls-3" transform="translate(111 37.81)">酷 导 航</text><text class="cls-4" transform="translate(107 60.25)">coolnav.com</text></svg>

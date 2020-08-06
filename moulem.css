@@ -10,16 +10,7 @@ a{color: inherit;}
         url('https://img.luziyang.cn/font/HYYiSongW.TTF') format('truetype'),
         url('https://img.luziyang.cn/font/HYYiSongW.svg#HYYiSongW') format('svg');
 } 
-@font-face {
- font-family: 'Tensentype-TTMiaoSiJ-W1';
- src: local('Tensentype-TTMiaoSiJ-W1 Regular'),
-        local('Tensentype-TTMiaoSiJ-W1'),
-        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.woff') format('woff'),
-        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.eot') format('eot'),
-        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.woff2') format('woff2'),
-        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.TTF') format('truetype'),
-        url('https://img.luziyang.cn/font/Tensentype-TTMiaoSiJ-W1.svg#Tensentype-TTMiaoSiJ-W1') format('svg');
-} 
+
 img{border:0 none;}
 .footer{
 display:none;
@@ -31,7 +22,7 @@ display:none;
     margin: 15px 10px 10px 10px; 
 }
 #divimg {
-background-image: url(images/logo1.svg);
+background-image: url(images/logo.svg);
 background-repeat: no-repeat;
 width: 278px;
 height: 112px; 
