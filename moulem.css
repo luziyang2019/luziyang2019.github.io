@@ -21,7 +21,7 @@ display:none;
     margin: 15px 10px 10px 10px; 
 }
 #divimg {
-background-image: url(images/logo.png);
+background-image: url(images/logo.svg);
 background-repeat: no-repeat;
 width: 278px;
 height: 112px; 
@@ -277,8 +277,8 @@ border-bottom:dashed 1px #cccccc;
 
 #calendar{
     background-color: #fff;
-    width: 120px;
-    height: 145px;
+    width: 100px;
+    height: 125px;
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
@@ -287,12 +287,18 @@ border-bottom:dashed 1px #cccccc;
     background-color: #5192ff;
     padding: 5px 0;
     color: #fff;
+    font-size: 12px;
 }
 
 #calendar .date{
     color: #5192ff;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
+}
+
+#calendar .week{
+    font-size:14px;
+    color: #5191fe;
 }
 
 .toptop {
