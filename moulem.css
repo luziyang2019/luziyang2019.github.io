@@ -1,5 +1,15 @@
 *{padding:0;margin:0;text-decoration:none;list-style: none;font-family: '微软雅黑';outline: none;}
 a{color: inherit;}
+@font-face {
+ font-family: 'HYYiSongW';
+ src: local('HYYiSongW Regular'),
+        local('HYYiSongW'),
+        url('https://img.luziyang.cn/font/HYYiSongW.woff') format('woff'),
+        url('https://img.luziyang.cn/font/HYYiSongW.eot') format('eot'),
+        url('https://img.luziyang.cn/font/HYYiSongW.woff2') format('woff2'),
+        url('https://img.luziyang.cn/font/HYYiSongW.TTF') format('truetype'),
+        url('https://img.luziyang.cn/font/HYYiSongW.svg#HYYiSongW') format('svg');
+} 
 img{border:0 none;}
 .footer{
 display:none;
@@ -101,7 +111,7 @@ html,body{height: 100%}
 .hSiteImg3{background-image: url(images/hSiteImg3.png);}
 .hSiteImgNeets{background-image: url(images/hSiteImgNeets.png);}
 
-.hSiteName{font-size: 16px;color:#15120e;float: left;display: block;width: 101px;height: 20px;margin: 15px 0px 15px 0px;line-height:20px}
+.hSiteName{font-family: HYYiSongW;font-size: 16px;color:#15120e;float: left;display: block;width: 101px;height: 20px;margin: 15px 0px 15px 0px;line-height:20px}
 .hZhengfa,.hQuzhan,.hTuku,.hXuexi,.hShenghuo,.hGongju,.hZhanzhang,.hSoso,.hBangong,.hMoulem{display: none;}
 .promptBtn{width: 20px;height: 20px;background-image:url(images/searchChoice/prompt.png);position: absolute;top:15px;right:60px;cursor: pointer;}
 .promptText{font-size:13px;color: #545454;display:none;overflow: hidden;width:auto;height:auto;background-color: white;position: absolute;top:36px;right:-45px;border:solid 1px #cccccc;border-radius: 10px;z-index: 41;padding:10px;}
@@ -251,6 +261,7 @@ border-bottom:dashed 1px #cccccc;
     line-height: 2.5;
     margin-left: -250px;
     letter-spacing: 2px;
+    color: #afafaf;
  }
 .tianqi {
     width: 168px;
