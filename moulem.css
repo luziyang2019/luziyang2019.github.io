@@ -15,6 +15,7 @@ background-image: url(images/logo.png);
 background-repeat: no-repeat;
 width: 278px;
 height: 112px; 
+z-index: 999999;
 }
 
 input[type=text]::-ms-clear{
@@ -236,4 +237,82 @@ border-bottom:dashed 1px #cccccc;
     -webkit-transition: al.5s linear;/* Safari and Chrome or liebao*/
     -moz-transition: all .5s linear;/*Firefox */
     -o-transition: all .5s linear;/*Opera */
-    -ms-transition: all .5s line
+    -ms-transition: all .5s line;
+}
+
+/*优化UI**/
+.yiyan {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    left: 50%;
+    bottom: -30px;
+    font-size: 11px;
+    line-height: 2.5;
+    margin-left: -250px;
+    letter-spacing: 2px;
+ }
+.tianqi {
+    width: 168px;
+    position: absolute;
+    margin-left: -500px;
+    left: 50%;
+    top: 20px;
+    z-index: 99999;
+}
+
+#calendar{
+    background-color: #fff;
+    width: 120px;
+    height: 145px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+#calendar .yearMon{
+    background-color: #5192ff;
+    padding: 5px 0;
+    color: #fff;
+}
+
+#calendar .date{
+    color: #5192ff;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.toptop {
+
+}
+
+.rili {
+    position: absolute;
+    margin-right: -500px;
+    right: 50%;
+    top: 20px;
+    background: #ffffff;
+    box-shadow: 14px 14px 28px #cccccc, -14px -14px 28px #ffffff;
+}
+
+
+@media screen and (max-width: 1280px) {/*兼容主流笔记本*/
+    .hSiteName{
+        font-size: 14px;
+    }
+    #calendar {
+        width: 120px;
+        height: 145px;
+        border-radius: 10px;
+    }
+    #calendar .yearMon {
+        font-size: 11px;
+    }
+    #calendar .date {
+        font-size: 50px;
+    }
+    #calendar .week {
+        font-size: 14px;  
+    }
+
+
+}
