@@ -22,8 +22,9 @@ display:none;
     margin: 15px 10px 10px 10px; 
 }
 #divimg {
-background-image: url(images/logo.svg);
+background-image: url(images/logo.png);
 background-repeat: no-repeat;
+background-size: cover;
 width: 278px;
 height: 112px; 
 z-index: 999999;
