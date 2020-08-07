@@ -70,7 +70,7 @@ html,body{height: 100%}
     background-image: url(images/searchBtn.png);background-position:12px 12px;background-repeat: no-repeat;cursor:pointer;}
 .searchChoice{width:40px;height:46px;background-color:white;    border: 1px solid #8e8e8e;border-right: 0;border-top-left-radius:15px;border-bottom-left-radius:15px;float:left;
     background-position:12px 12px;background-repeat: no-repeat;position: relative;}
-.sChoiceBtn{width: 20px;height: 20px;margin:13px auto 0 auto;cursor:pointer;background-image:url(images/searchChoice/scbaidugray.png);background-repeat: no-repeat;}
+.sChoiceBtn{width: 20px;height: 20px;margin:13px auto 0 auto;cursor:pointer;background-image:url(images/searchChoice/scbaidu.png);background-repeat: no-repeat;opacity: 0.4;}
 .scBigBox{display:none;overflow: hidden;width:auto;height:auto;background-color: white;position: absolute;top:36px;border:solid 1px #cccccc;border-radius: 10px;z-index: 41;}
 .scSmallBox{overflow: hidden;width:130px;height:34px;color: #545454;cursor: pointer;}
 .scSmallBox:hover{background-color:#f0f0f0;}
