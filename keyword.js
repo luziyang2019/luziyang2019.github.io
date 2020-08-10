@@ -4,7 +4,7 @@
         "types":[{name:"wd",action:"https://www.baidu.com/s",stype:"images/searchChoice/scbaidu.png",type:"baidu"},
                  {name:"query",action:"https://www.sogou.com/web",stype:"images/searchChoice/scsougou.png",type:"sogou"},
                  {name:"q",action:"https://cn.bing.com/search",stype:"images/searchChoice/scbing.png",type:"bing"},
-                 {name:"q",action:"https://www.so.com/s",stype:"images/searchChoice/sc360gray.png",type:"so"},
+                 {name:"q",action:"https://www.so.com/s",stype:"images/searchChoice/sc360.png",type:"so"},
                  {name:"q",action:"https://www.google.com.hk/search",stype:"images/searchChoice/scgoogle.png",type:"google"},
                  {name:"key",action:"https://www.cupfox.com/search",stype:"images/searchChoice/sccili.png",type:"cili"},
                  {name:"key",action:"http://neets.cc/search",stype:"images/searchChoice/scyingyin.png",type:"yingyin"},
