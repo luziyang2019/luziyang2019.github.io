@@ -8,6 +8,8 @@
                  {name:"q",action:"https://www.google.com.hk/search",stype:"images/searchChoice/scgoogle.png",type:"google"},
                  {name:"key",action:"https://www.cupfox.com/search",stype:"images/searchChoice/sccili.png",type:"cili"},
                  {name:"key",action:"http://neets.cc/search",stype:"images/searchChoice/scyingyin.png",type:"yingyin"},
+                 {name:"key",action:"https://law.wkinfo.com.cn/legislation/list?q=",stype:"images/searchChoice/sccili.png",type:"law1"},
+                 
                  
                 ]};
 	var checktype=$(".sChoiceBtn");
