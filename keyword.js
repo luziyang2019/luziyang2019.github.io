@@ -8,8 +8,7 @@
                  {name:"q",action:"https://www.google.com.hk/search",stype:"images/searchChoice/scgoogle.png",type:"google"},
                  {name:"key",action:"https://www.cupfox.com/search",stype:"images/searchChoice/sccili.png",type:"cili"},
                  {name:"q",action:"https://law.wkinfo.com.cn/legislation/list",stype:"images/searchChoice/sccili.png",type:"law1"},
-                 
-                 
+
                 ]};
 	var checktype=$(".sChoiceBtn");
     var type=$(".scSmallBox");
